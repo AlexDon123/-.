@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While executing init code:
+  File "game/script.rpy", line 3, in script
+    $ mods["MOD__alex_mod"]=u"Саня"
+  File "game/script.rpy", line 3, in <module>
+    $ mods["MOD__alex_mod"]=u"Саня"
+NameError: name 'mods' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 3, in script
+    $ mods["MOD__alex_mod"]=u"Саня"
+  File "L:\RenPy\renpy-6.18.3-sdk\renpy\ast.py", line 785, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "L:\RenPy\renpy-6.18.3-sdk\renpy\python.py", line 1382, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 3, in <module>
+    $ mods["MOD__alex_mod"]=u"Саня"
+NameError: name 'mods' is not defined
+
+Windows-Vista-6.0.6002-SP2
+Ren'Py 6.18.3.761
+MoD ES 0.0
